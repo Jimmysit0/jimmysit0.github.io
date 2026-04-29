@@ -2,7 +2,13 @@
   (:require [reagent.core :as r]        
             [reagent.dom.client :as rdomc]))
 
-(defonce theme (r/atom "dark"))
+(defn get-system-theme []
+  (if (and (exists? js/window.matchMedia)
+           (.-matches (js/window.matchMedia "(prefers-color-scheme: dark)")))
+    "dark"
+    "light"))
+
+(defonce theme (r/atom (get-system-theme)))
 
 (defn toggle-theme []
   (let [new-theme (if (= @theme "light") "dark" "light")]
@@ -41,7 +47,7 @@
    [:span "made with ❤️ powered by "
     [dict-link "shadow-cljs" "https://shadow-cljs.org"]
     " source "
-    [dict-link "github" "https://github.com/tu-usuario/tu-repositorio"] 
+    [dict-link "github" "https://github.com/Jimmysit0/website"] 
     ]])
 
 (defn dictionary-portfolio []
