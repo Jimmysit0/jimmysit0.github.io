@@ -44,7 +44,7 @@
 
 (defn footer-section []
   [:footer.footer
-   [:span "made with ❤️ powered by "
+   [:span "powered by "
     [dict-link "shadow-cljs" "https://shadow-cljs.org"]
     " source "
     [dict-link "github" "https://github.com/Jimmysit0/website"] 
@@ -64,7 +64,7 @@
     [:div.definition-list
      [definition-item "1"
       [:span "computer science student at "
-       [dict-link "Universidad Nacional de Colombia" "https://unal.edu.co"]]]
+       [dict-link "universidad nacional de colombia" "https://unal.edu.co"]]]
      [definition-item "2" "passionate about functional programming, mathematics, and problem-solving"]
      [definition-item "3"
       [:span "someone you can contact via "
@@ -75,9 +75,9 @@
       [:span "someone looking for new projects to join"]]
      [definition-item "5"
       [:span "someone who strives to learn new things, and is interested in: "
-       [dict-link "Clojure" "https://clojure.org"] ", "
-       [dict-link "Java" "https://www.java.com/"] ", "
-       [dict-link "C++" "https://isocpp.org/"]]]]]
+       [dict-link "clojure" "https://clojure.org"] ", "
+       [dict-link "c++" "https://isocpp.org/"] ", "
+       [dict-link "java" "https://www.java.com"]]]]]
    
    [footer-section]])
 
