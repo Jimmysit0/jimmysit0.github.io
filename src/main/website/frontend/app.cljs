@@ -76,7 +76,11 @@
       [:span "someone who strives to learn new things, and is interested in: "
        [dict-link "clojure" "https://clojure.org"] ", "
        [dict-link "c++" "https://isocpp.org/"] ", "
-       [dict-link "java" "https://www.java.com"]]]]]
+       [dict-link "java" "https://www.java.com"]]]
+     [definition-item "6"
+      [:span "try "
+       [dict-link "clordle!" "https://jimmysit0.github.io/clordle/"]
+       " a Wordle-like game of Clojure functions"]]]]
    
    [footer-section]])
 
