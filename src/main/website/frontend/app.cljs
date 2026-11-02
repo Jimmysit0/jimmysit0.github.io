@@ -68,8 +68,8 @@
      [definition-item "2" "passionate about functional programming, mathematics, and problem-solving"]
      [definition-item "3"
       [:span "someone you can contact via "
-       [dict-link "email" "mailto:jpedrozoa@unal.edu.co"] ", "
-       [dict-link "github" "https://github.com/jimmysit0"] ", "]]
+       [dict-link "email" "mailto:jimmysit0@tuta.io"] ", "
+       [dict-link "github" "https://github.com/jimmysit0"]]]
      [definition-item "4"
       [:span "someone looking for new projects to join"]]
      [definition-item "5"
